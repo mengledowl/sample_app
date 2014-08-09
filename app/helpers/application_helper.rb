@@ -5,4 +5,5 @@ module ApplicationHelper
     unless page_title.empty?; return "#{base_title} | #{page_title}"; end
     base_title
   end
+
 end
